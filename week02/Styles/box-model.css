@@ -2,7 +2,7 @@
 	width: 400px;
 	margin: 10px;
 	border: 1px solid rgba(0,0,0,.1);
-	padding: 30px;
+	padding: 20px;
 	background-color: rgb(171, 66, 43);
 	color: #fff;
 }
@@ -10,7 +10,7 @@
 .callout img {
 	float: right;
 	margin: 0 0 10px 15px;
-	border: 1px solid #352415;
+	border: 7px solid #352415;
 	padding: 3px;
 	background-color: #897972;
 	width: 100px;
