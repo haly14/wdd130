@@ -10,7 +10,7 @@
 .callout img {
 	float: right;
 	margin: 0 0 10px 15px;
-	border: 7px solid #352415;
+	border: 5px solid #1f150c;
 	padding: 3px;
 	background-color: #897972;
 	width: 100px;
@@ -24,7 +24,7 @@ blockquote {
 
 cite {
 	display: block;
-	border-top: 1px dotted #fff;
+	border-top: 2px dotted #fff;
 	padding-top: 3px;
 	text-align: right;
 	font-size: smaller;
