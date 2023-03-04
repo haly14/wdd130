@@ -1,13 +1,13 @@
-@import url(https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Source+Sans+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Lato&display=swap);
 
 :root {
-    --primary-color: #3F6634 ;
-    --secondary-color: #4FB477 ;
-    --accent1-color: #345511 ;
+    --primary-color: #4FB477 ;
+    --secondary-color: #345511 ;
+    --accent1-color: #3F6634 ;
     --accent2-color: #DCFFFD ;
   
     --heading-font: 'Tilt Warp', sans serif ;
-    --paragraph-font: 'Source Sans Pro', sans serif ;
+    --paragraph-font: 'Lato', sans serif ;
   
     --nav-background-color: #3F6634 ;
     --nav-link-color: #4FB477 ;
