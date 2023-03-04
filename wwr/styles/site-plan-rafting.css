@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Source+Sans+Pro&display=swap)
+
+:root {
+    --primary-color: #3F6634 ;
+    --secondary-color: #4FB477 ;
+    --accent1-color: #345511 ;
+    --accent2-color: #DCFFFD ;
+  
+    --heading-font: 'Tilt Warp', sans serif ;
+    --paragraph-font: 'Source Sans Pro', sans serif ;
+  
+    --nav-background-color: #3F6634 ;
+    --nav-link-color: #4FB477 ;
+    --nav-hover-link-color: #345511 ;
+    --nav-hover-background-color: #DCFFFD ;
+}
+
+body {
+    max-width: 960 px;
+    padding: 20 px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font) ;
+    color: (--primary-color) ;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color) ;
+}
+
+paragraph {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color) ;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color) ;
+    text-decoration: none; 
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color) ;
+    background-color: var(--nav-hover-background-color) ;
+}
