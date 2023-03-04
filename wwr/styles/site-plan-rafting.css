@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Source+Sans+Pro&display=swap)
+@import url(https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Source+Sans+Pro&display=swap);
 
 :root {
     --primary-color: #3F6634 ;
@@ -11,8 +11,8 @@
   
     --nav-background-color: #3F6634 ;
     --nav-link-color: #4FB477 ;
-    --nav-hover-link-color: #345511 ;
-    --nav-hover-background-color: #DCFFFD ;
+    --nav-hover-link-color: #121619 ;
+    --nav-hover-background-color: #95AFBA ;
 }
 
 body {
