@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Lato&display=swap);
+
+:root {
+    --primary-color: #4FB477 ;
+    --secondary-color: #345511 ;
+    --accent1-color: #3F6634 ;
+    --accent2-color: #DCFFFD ;
+  
+    --heading-font: 'Tilt Warp', sans-serif ;
+    --paragraph-font: 'Lato', sans-serif ;
+  
+    --nav-background-color: #3F6634 ;
+    --nav-link-color: #4FB477 ;
+    --nav-hover-link-color: #121619 ;
+    --nav-hover-background-color: #95AFBA ;
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font) ;
+    color: var(--primary-color) ;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color) ;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color) ;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color) ;
+    text-decoration: none; 
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color) ;
+    background-color: var(--nav-hover-background-color) ;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
