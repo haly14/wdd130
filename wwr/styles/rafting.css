@@ -25,12 +25,22 @@ h1, h2, h3 {
     color: var(--primary-color) ;
 }
 
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
 header {
     padding: 20px;
     background-color: var(--accent1-color) ;
 }
 
 p {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
     padding: 25px;
 }
 
@@ -52,9 +62,18 @@ nav a:link, nav a:visited {
     background-color: var(--nav-hover-background-color) ;
 }
 
+.herodiv {
+	margin: 10px auto;
+	position: relative;
+}
+
+.herodiv img {
+	width: 100%;
+	height: auto;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-
