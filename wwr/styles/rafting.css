@@ -20,13 +20,15 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3 {
+h3 {
     font-family: var(--heading-font) ;
     color: var(--primary-color) ;
 }
 
 h1 {
     position: absolute;
+    font-family: var(--heading-font) ;
+    color: var(--accent2-color) ;
 }
 
 article {
@@ -36,6 +38,7 @@ article {
 header {
     padding: 20px;
     background-color: var(--accent1-color) ;
+    grid-column: 1/3;
 }
 
 p {
@@ -48,6 +51,7 @@ nav {
     background-color: var(--nav-background-color) ;
     font-size: 1.2rem;
     display: flex;
+    flex: 1 100px;
 }
 
 nav a {
@@ -76,4 +80,43 @@ nav a:link, nav a:visited {
     display: block;
     width: 100%;
     height: auto;
+}
+
+h2 {
+    font-family: var(--heading-font) ;
+    color: var(--accent2-color) ;
+}
+
+section {
+    display: grid;
+    grid-column: 1/6;
+}
+
+figure {
+    border: thin #fff solid;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+img {
+    max-width: 500px;
+    max-height: 300px;
+    display: flex;
+}
+
+figcaption {
+    background-color: #fff;
+    color: var(--secondary-color);
+    font-family: var(--heading-font) ;
+    padding: 3px;
+    text-align: center;
+    
+}
+
+footer {
+    grid-column: 1/4;
+    z-index: 5
 }
